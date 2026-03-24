@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API_URL = "http://localhost:3001";
+const API_URL = "https://task-management-5wtu.onrender.com";
 const COLONNES = ["À faire", "En cours", "Terminé"];
 const COULEURS = {
   "À faire": { bg: "#EFF6FF", border: "#3B82F6", badge: "#DBEAFE", text: "#1D4ED8" },
